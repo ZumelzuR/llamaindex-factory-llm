@@ -1,0 +1,29 @@
+**Creating a User with API Calls**
+
+This document details how to create a new user account programmatically using the application programming interface (API).
+
+**API Endpoint:**
+
+* `POST /users`
+
+**Request Parameters:**
+
+* `username` (string): The desired username for the new account. (Required)
+* `email` (string): The email address associated with the new account. (Required)
+* `password` (string): The password for the new account. (Required)
+* `name` (string): (Optional) The full name of the user.
+
+**Response:**
+
+* Upon successful creation, the API will return a JSON object with the following data:
+    * `id` (integer): The unique identifier for the newly created user.
+    * `username` (string): The provided username.
+    * `email` (string): The provided email address.
+
+**Authentication:**
+
+* API calls require an authorization token obtained through a separate login process. 
+
+**Additional Notes:**
+
+* Refer to the separate API documentation for authentication details.

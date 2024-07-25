@@ -1,0 +1,16 @@
+*Creating a User with the User Interface**
+
+This document explains how to create a new user account using the graphical user interface (UI).
+
+**Steps:**
+
+1. Open the application.
+2. Click on the "Sign Up" button.
+3. Enter your desired username and email address.
+4. Create a strong password and confirm it.
+5. Fill in any additional information required by the form (e.g., name, location).
+6. Click on the "Create Account" button.
+
+**Additional Notes:**
+
+* A confirmation email will be sent to your provided address.

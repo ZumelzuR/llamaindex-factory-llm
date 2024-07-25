@@ -29,3 +29,7 @@ export the variable
 ```
 export PYTORCH_ENABLE_MPS_FALLBACK=1
 ```
+
+### setup .env variables
+
+Check on .env.example to check the requirement variables
