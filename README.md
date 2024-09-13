@@ -14,9 +14,14 @@ Create a python virtual environment
 python -m venv venv
 ```
 
+Active venv enviromnet
+```
+source venv/bin/activate 
+```
+
 Install dependencies
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ### Start

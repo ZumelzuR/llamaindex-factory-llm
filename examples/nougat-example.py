@@ -7,7 +7,7 @@ from PIL import Image
 
 pytesseract.pytesseract.tesseract_cmd = r'./venv/bin/pytesseract'
 
-text = pytesseract.image_to_string(Image.open('image.png'))
+text = pytesseract.image_to_string(Image.open('./data/images/image.png'))
 print(text)
 # reader = PDFNougatOCR()
 # file_extractor_pdf = {

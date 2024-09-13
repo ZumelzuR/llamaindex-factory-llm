@@ -153,6 +153,9 @@ class AzureProcessor(DataProcessor):
     #     response = self.agent.chat(message)
     #     return str(response)
     
+    def set_tools(self, tools):
+        self.tools = tools
+    
     def get_tools(self):
         return self.tools
     

@@ -37,7 +37,7 @@ class DataProcessor(ABC):
     @abstractmethod
     def set_agent(self, agent):
         pass
-
+        
     def post_message(self, message):
         if not self.agent:
             raise Exception("Agent not setup")
